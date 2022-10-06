@@ -2,7 +2,7 @@ pipeline {
 	agent none
   stages {
   	stage('cloning git'){
-        git 'https://github.com/aditya-sridhar/simple-angular6-app.git'
+        git 'https://github.com/paradkar012/simple-angular6-app.git'
     }
     stage("Build") {
         bat 'npm run ng --build'
